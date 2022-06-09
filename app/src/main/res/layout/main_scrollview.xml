@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameS"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/img_tony_stark"
+                android:text="Aka IRONMAN"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_nameS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:layout_toRightOf="@id/img_tony_stark"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn_T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_site_addS"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/img_tony_stark"
+                android:ems="10"
+                android:text="MORE INFO"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/img_tony_stark"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/tony_stark_new"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameC"
+                android:text="Aka CAPTAIN AMERICA"
+                android:layout_toRightOf="@id/img_captain"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/txt_nameC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/img_captain"
+                android:text="Steve Rogers"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_site_addC"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/img_captain"
+                android:ems="10"
+                android:text="MORE INFO"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/img_captain"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/captain_america"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameH"
+                android:text="Aka HULK"
+                android:layout_toRightOf="@id/img_hulk"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/txt_nameH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/img_hulk"
+                android:text="Dr. Banner"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+            android:id="@+id/btn_H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/img_hulk"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/txt_site_addH"
+            android:textColor="@color/white"
+            android:text="MORE INFO"/>
+
+            <ImageView
+                android:id="@+id/img_hulk"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/hulk"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameB"
+                android:text="Aka BLACK PANTHER"
+                android:layout_toRightOf="@id/img_black"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/txt_nameB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/img_black"
+                android:text="Prince Tachalla"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+            android:id="@+id/btn_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/img_black"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/txt_site_addB"
+            android:textColor="@color/white"
+            android:text="MORE INFO"/>
+
+            <ImageView
+                android:id="@+id/img_black"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/black_panther"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameT"
+                android:text="Aka ODIN SON THOR "
+                android:layout_toRightOf="@id/img_thor"
+                android:textColor="#000000"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/txt_nameT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/img_thor"
+                android:text="Thor"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_TH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_site_addT"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/img_thor"
+                android:ems="10"
+                android:text="MORE INFO"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/img_thor"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/thor"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_site_addW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nameW"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/img_widow"
+                android:text="Aka BLACK WIDOW"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_nameW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natasha Romanoff"
+                android:layout_toRightOf="@id/img_widow"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+            <Button
+            android:id="@+id/btn_W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_toRightOf="@id/img_widow"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/txt_site_addW"
+            android:textColor="@color/white"
+            android:text="MORE INFO"/>
+            <ImageView
+                android:id="@+id/img_widow"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/widow"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
